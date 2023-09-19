@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.nav img {
+  height: 3rem;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.welcome {
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  width: 60%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #00b172;
+}
+
+hr {
+  width: 27rem;
+  margin: -2.5rem auto 0;
+  border: 2px solid #00b172;
+}
+
+.article div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+article img {
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 4rem;
+}
+
+.kanye {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  position: relative;
+}
+
+.kanye img {
+  height: 40rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+header p {
+  font-size: 1.5em;
+  width: 45%;
+}
+
+.west {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo {
+  position: absolute;
+  height: 10rem;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
